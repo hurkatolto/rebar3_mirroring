@@ -1,0 +1,12 @@
+%% -*- erlang-indent-level: 4;indent-tabs-mode: nil -*-
+%% ex: ts=4 sw=4 et
+%% -------------------------------------------------------------------
+ 
+{application, rebar3_mirroring, [
+    {description, "Plugin for automatic mirroring of dependencies into proprietary servers"},
+    {vsn, ""},
+    {registered, []},
+    {modules, [rebar3_mirroring]},
+    {applications, [kernel, stdlib]},
+    {env, []}
+]}. 
